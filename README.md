@@ -116,7 +116,8 @@ nano config.yml
 Add the following configuration:
 
 ```
-tunnel: e29fddfentials-file: /root/.cloudflared/UUID.json
+tunnel: <UUID>
+credentials-file: /root/.cloudflared/<UUID>.json
 
 ingress:
   - hostname: domain.com
